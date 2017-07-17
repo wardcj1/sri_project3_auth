@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Login.css';
 import { auth } from '../helpers/auth'
 
 function setErrorMsg(error) {
@@ -17,7 +18,8 @@ export default class Register extends Component {
   render () {
     return (
       <div className="col-sm-6 col-sm-offset-3 well well-lg">
-        <h1>Register</h1>
+        <center><h1>Register</h1></center>
+        <hr />
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label>Email</label>
@@ -35,7 +37,7 @@ export default class Register extends Component {
               &nbsp;{this.state.registerError}
             </div>
           }
-          <button type="submit" className="btn btn-danger">Register</button>
+          <button type="submit" className="submitBtn">Register</button>
         </form>
       </div>
     )
