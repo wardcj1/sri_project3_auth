@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Login.css';
 import { login, resetPassword } from '../helpers/auth'
-import { Route, BrowserRouter, Link, Redirect, Switch, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function setErrorMsg(error) {
