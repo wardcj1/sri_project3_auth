@@ -1,11 +1,16 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	/*background-color: whitesmoke !important;*/
 }
 
 .searchBar {
-	margin-left: 90%;
+	
+}
+
+.search-btn {
+		margin-left: 10px;	
+        background-color: rgb(203,0,0);
+        color: white;
+        height: 36px;
 }
 
 .portfolio {
@@ -26,6 +31,7 @@ body {
         border-style: solid;
         border-color: blue;
         border-width: 2px;
+        border-radius: 3px;
 }
 
 .tiles {
@@ -70,8 +76,3 @@ body {
     cursor: hand; cursor: pointer;
 }
 
-.search-btn {
-        background-color: rgb(203,0,0);
-        color: white;
-        height: 36px;
-}

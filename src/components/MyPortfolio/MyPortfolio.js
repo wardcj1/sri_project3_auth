@@ -22,8 +22,9 @@ class MyPortfolio extends Component {
 		return(
 		  <div>
 			<div className="row">
-					<section className="col-md-12 searchBar">
-						<span>Search Bar
+					<section className="col-md-10"></section>
+					<section className="col-md-2 searchBar">
+						<span className="glyphicon glyphicon-search"> Search
 						      <button type="submit" id="addstock" className="search-btn">Search</button>
 						</span>
 					</section>

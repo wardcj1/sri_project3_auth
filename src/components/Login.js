@@ -49,7 +49,7 @@ export default class Login extends Component {
           }
           <button type="submit" className="submitBtn">Sign in</button>
           <div className="modal-footer">
-                <Link to="/register" className="">Register</Link>
+                <Link to="/register" className="btn btn-primary">Register</Link>
           </div>
         </form>
       </div>
