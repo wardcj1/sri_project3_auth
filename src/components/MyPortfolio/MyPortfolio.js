@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './MyPortfolio.css';
+
+
 
 class MyPortfolio extends Component {
 	constructor(props) {
@@ -16,10 +20,33 @@ class MyPortfolio extends Component {
 
 	render() {
 		return(
-			<div>
-				<h1>My Portfolio and Watchlist</h1>	
-				<button onClick={this.submitMyPortfolio} className="btn btn-danger">Submit</button>
+		  <div>
+			<div className="row">
+					<section className="col-md-12 searchBar">
+						<span>Search Bar
+						      <button type="submit" id="addstock" className="search-btn">Search</button>
+						</span>
+					</section>
+			<hr />
 			</div>
+			<div className="row">
+			        <section className="col-md-4 portfolio">
+				        <center><h1>My Portfolio</h1></center>
+				        <hr />
+
+
+				        <hr />
+				        <center>
+				        <Link to="/Suitability" className="userstock-btn">Submit</Link>
+				        </center>
+			        </section>
+			        <section className="col-md-1"></section>
+			        <section className="col-md-7 watchlist">
+			 	        <center><h1>Watchlist</h1></center>
+			 	        <hr />
+			        </section>
+			</div>
+		  </div>
 	);
   }
 }

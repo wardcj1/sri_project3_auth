@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 
 class Suitability extends Component {
 	constructor(props) {
@@ -27,7 +29,7 @@ class Suitability extends Component {
 		return(
 			<div>
 				<h1>Suitability</h1>
-				<button onClick={this.backMyPortfolio} className="btn btn-primary">back</button>	
+				<Link to="/MyPortfolio" className="btn btn-primary">back</Link>
 				<br/>
 				<hr/>
 				<button onClick={this.submitSuitability} className="btn btn-danger">Submit</button>

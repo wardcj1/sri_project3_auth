@@ -4,3 +4,74 @@ body {
   font-family: sans-serif;
 }
 
+.searchBar {
+	margin-left: 90%;
+}
+
+.portfolio {
+        height:500px;
+        padding-left: 5px;
+        padding-bottom: 50px;
+        background-color: white;
+        border-style: solid;
+        border-color: rgb(203,0,0);
+        border-width: 2px;
+        border-radius: 50px;
+}
+
+.watchlist {
+        padding-left: 5px;
+        padding-bottom: 50px;
+        background-color: white;
+        border-style: solid;
+        border-color: blue;
+        border-width: 2px;
+}
+
+.tiles {
+        position:relative;
+        margin-top: 5px;
+        margin-left: 3px;
+        border-width: ;
+        border-style: ;
+        border-color: ;
+}
+
+/*
+.default-img {
+        background-image: url(../images/default.png);
+        background-size: 100px 100px;
+}
+
+*/
+
+.userstock-btn {
+		text-decoration: none;
+        margin-top: 10px;
+        background-color: rgb(203,0,0);
+        border-color: rgb(70,70,70);
+        border-style: solid;
+    	border-width: 1px;
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        border-radius: 15px;
+        padding: 3px;
+}
+
+.userstock-btn:hover,
+.userstock-btn:focus {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(203,0,0);
+    border-color: rgb(203,0,0);
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: hand; cursor: pointer;
+}
+
+.search-btn {
+        background-color: rgb(203,0,0);
+        color: white;
+        height: 36px;
+}
