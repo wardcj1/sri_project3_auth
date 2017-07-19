@@ -1,5 +1,6 @@
-body {
-	/*background-color: whitesmoke !important;*/
+.picklist {
+/*	background-color: whitesmoke;
+	width: 110%;*/
 }
 
 .searchBar {
@@ -32,6 +33,10 @@ body {
         border-color: blue;
         border-width: 2px;
         border-radius: 3px;
+}
+
+.wrapper {
+		/*background-color: rgb(230,235,248);*/
 }
 
 .tiles {
@@ -76,3 +81,19 @@ body {
     cursor: hand; cursor: pointer;
 }
 
+.tile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.tile-contents {
+  width: calc(25% - 50px);
+  list-style-type: none;
+  margin-right: 50px;
+  background-color: rgb(237, 237, 237);
+  color: #000;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12), 0 1px 8px 0 rgba(0,0,0,.2);
+}

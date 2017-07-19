@@ -17,11 +17,16 @@ class Suitability extends Component {
 	render() {
 		return(
 			<div>
-				<h1>Suitability</h1>
+				<center><h1>Suitability</h1></center>
 				<Link to="/MyPortfolio" className="btn btn-primary">Go back</Link>
-				<br/>
 				<hr/>
+
+				
+
+				<hr/>
+				<center>
 				<button onClick={this.submitSuitability} className="btn btn-danger">Submit</button>
+				</center>
 			</div>
 	);
   }
