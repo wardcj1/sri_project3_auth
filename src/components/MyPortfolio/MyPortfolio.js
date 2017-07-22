@@ -101,7 +101,7 @@ constructor() {
 			                        <h3>{item.title}</h3>
 			                        <p>{item.user}  
 								<form onSubmit={this.handleSubmit} className="form-inline">
-					                  <button className="btn btn-success">Add</button>
+					                  <button className="btn btn-success" onClick={() => this.removeItem(item.id)}>Add</button>
           					    </form>
 			                        </p>
 			                      </span>
