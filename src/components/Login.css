@@ -95,11 +95,11 @@
 .submitBtn {
 	cursor: hand; cursor: pointer;
     background-color: white;
-    color: red;
+    color: rgb(203,0,0);
     font-weight: bold;
     border-radius: 5px;
     border-color: rgb(203,0,0);
-    height: 27px;
+    height: 35px;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;

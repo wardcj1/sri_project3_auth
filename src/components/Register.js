@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Login.css';
 import { auth } from '../helpers/auth'
+import { Link } from 'react-router-dom'
+
 
 function setErrorMsg(error) {
   return {
@@ -37,7 +39,9 @@ export default class Register extends Component {
               &nbsp;{this.state.registerError}
             </div>
           }
-          <button type="submit" className=" ">Register</button>
+          <button type="submit" className="btn btn-success">Continue</button>
+          <hr />
+          <center><Link to="/MyPortfolio" className="btn btn-primary">Go back</Link></center>
         </form>
       </div>
     )
