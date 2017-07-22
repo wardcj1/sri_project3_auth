@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Thumbnail, Col } from "react-bootstrap";
 // import { browserHistory } from "react-router";
 // import thumbnail images
+import './index.css';
 import rLogo from './assets/images/Reuters.jpg';
 import cLogo from './assets/images/cnbc.png';
 import fLogo from './assets/images/Forbes.jpeg';

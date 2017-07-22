@@ -83,7 +83,7 @@ constructor() {
 			        <section className="col-md-4 portfolio">
 				        <center><h1>My Portfolio</h1></center>
 				        <hr />
-				        	<h3>watchlist.js goes here</h3>
+				        	<h3>user selected stocks go here</h3>
 				        <hr />
 				        <center>
 				        <Link to="/Suitability" className="userstock-btn">Submit</Link>
@@ -100,15 +100,9 @@ constructor() {
 			                      <span className="watchlist-contents" key={item.id}>
 			                        <h3>{item.title}</h3>
 			                        <p>{item.user}  
-			                        <form onSubmit={this.handleMove}>
-					                  <button className="search-btn">Move to Portfolio</button>
-                					</form> 
-			                          <button onClick={
-										// move to watchlist
-
-			                          	// remove from portfolio
-			                          		() => this.removeItem(item.id)} className="btn btn-success">+
-			                          </button>
+								<form onSubmit={this.handleSubmit} className="form-inline">
+					                  <button className="btn btn-success">Add</button>
+          					    </form>
 			                        </p>
 			                      </span>
 			                    )

@@ -46,6 +46,7 @@ h2 {
   position: relative;
   max-width: 800px;
   /*width: 100%;*/
+  background-image: url("./assets/images/palms.jpg");
   margin: 0 auto;
   background: #fff;
   border-radius: 3px;
