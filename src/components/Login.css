@@ -113,6 +113,32 @@
     border-color: darkgray;
 }
 
+ 
+.startbtn {
+    text-shadow: 1px 1px #000000;
+    font-size: 25px;
+    cursor: hand; cursor: pointer;
+    background-color: rgb(203,0,0);
+    color: white;
+    border-color: darkgray;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(203,0,0);
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.startbtn:hover,
+.startbtn:focus {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(203,0,0);
+    border-color: darkgray;
+}
+
 .profile-section {
     width: 50%;
     margin-left: 45%;
