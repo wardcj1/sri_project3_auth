@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Thumbnail, Button, Col } from "react-bootstrap";
-import { browserHistory } from "react-router";
+import { Grid, Row, Thumbnail, Col } from "react-bootstrap";
+// import { browserHistory } from "react-router";
 // import thumbnail images
 import rLogo from './assets/images/Reuters.jpg';
 import cLogo from './assets/images/cnbc.png';
@@ -11,9 +11,9 @@ import maLogo from './assets/images/market-watch-logo.jpg';
 import bLogo from './assets/images/Bloomberg.png';
 import aLogo from './assets/images/Alpha.png';
 
-const divStyle = {
-  backgroundImage: 'url(' + './assets/images/palms.jpg' + ')',
-};
+// const divStyle = {
+//   backgroundImage: 'url(' + './assets/images/palms.jpg' + ')',
+// };
  
 class Home extends Component {
 
@@ -31,7 +31,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div style={divStyle} className="container homecontainer"> 
+      <div className="container homecontainer"> 
 
         <div>
           <Row className="col-md-12">
