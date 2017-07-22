@@ -83,7 +83,7 @@ constructor() {
 			        <section className="col-md-4 portfolio">
 				        <center><h1>My Portfolio</h1></center>
 				        <hr />
-				        	<h3>user selected stocks go here</h3>
+				        	<div className="holdspace"></div>
 				        <hr />
 				        <center>
 				        <Link to="/Suitability" className="userstock-btn">Submit</Link>

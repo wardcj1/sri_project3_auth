@@ -46,6 +46,10 @@
         border-color: ;
 }
 
+.holdspace {
+  height: 300px;
+}
+
 /*
 .default-img {
         background-image: url(../images/default.png);
